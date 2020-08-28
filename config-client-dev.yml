@@ -1,5 +1,2 @@
-spring:
-  application:
-    name:123
-
-config.test.name: 111222
+info:
+  profile: dev
