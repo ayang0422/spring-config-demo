@@ -1,3 +1,5 @@
 spring:
   application:
     name:123
+
+config.test.name: 111222
