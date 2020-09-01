@@ -1,2 +1,9 @@
 info:
   profile: master
+
+management:
+  endpoints:
+    web:
+      exposure:
+        exclude: hystrix.stream
+        include: refresh,health,info
