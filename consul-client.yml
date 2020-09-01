@@ -7,8 +7,8 @@ spring:
       host: localhost
       discovery:
         service-name: consul-client
-server:
-  port: 8051
+#server:
+#  port: 8051
 
 management:
   endpoints:
