@@ -6,6 +6,12 @@ spring:
       port: 8500
       host: localhost
       discovery:
-        service-name: consul-client-1
+        service-name: consul-client
 server:
-  port: 8052
+  port: 8051
+
+management:
+  endpoints:
+    web:
+      exposure:
+        exclude: hystrix.stream
